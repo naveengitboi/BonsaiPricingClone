@@ -305,7 +305,7 @@ i
     text-align: center;
     margin: 1rem 0;
     color: #01b289;
-    cursor: pointer;
+
 }
 
 .faqsBox
@@ -314,11 +314,21 @@ i
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
 }
+.Question 
+{
+    cursor: pointer;
+}
 
 .answer
 {
     padding-right:3rem ;
     margin: .5rem 0;
+    display: none;
+}
+
+.answer .active 
+{
+    display: block;
 }
 
 
