@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+/*     font-family: 'Aboreto', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500;700&family=Josefin+Sans:wght@400;500;600;700&display=swap');
+
+/* font-family: 'Fira Sans', sans-serif;
+font-family: 'Josefin Sans', sans-serif; */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    color: rgb(51, 51, 51);
+}
+
+/***********TypoGraphy**************/
+
+h1
+{
+    font-size: 2.5rem;
+
+    font-weight: normal;
+}
+h2
+{
+    font-size: 1.95rem;
+
+}
+h3
+{
+    font-size: 1.7rem;
+}
+h4
+{
+    font-size: 1rem;
+    font-weight: 700;
+}
+p 
+{
+    font-size: 1.15rem ;
+    font-family: roboto;
+}
+li 
+{
+    list-style: none;
+}
+a
+{
+    padding: .5rem 1rem;
+    margin: .245rem 1rem ;
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+}
+i
+{
+    color: #01b289;
+    font-size: 1.25rem;
+    margin: 0 .15rem;
+    display: inline;
+}
+
+
+/***********Common Styles**************/
+
+
+
+
+.btn 
+{
+    padding: .85rem 1.9rem;
+    color: white;
+    border: none;
+    border-radius: .25rem;
+    cursor: pointer;
+    background-color: #01b289;
+}
+
+
+
+
+/* navBar */
+
+
+.navBar
+{
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 10rem rgb(223, 223, 223);
+    background-color: white;
+}
+
+.navBar img 
+{
+    width: 150px;
+
+}
+.navLinks ul 
+{
+    display: flex;
+}
+
+.navLinks a
+{
+
+}
+
+.navLinks a i 
+{
+    color: #01b289;
+}
+.hamBurgerMenu 
+{
+    display: none;
+}
+
+
+/* pricing list */
+
+.paddingSection 
+{
+    margin-top: 5rem;
+   width: auto;
+   padding: 7rem 5rem 3rem;
+}
+
+
+
+
+.pricingTopBox
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pricingTopBox h1   
+{
+    margin: 2.5rem 7.9rem ;
+    letter-spacing: 1.5px;
+}
+
+.periodsLimit 
+{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.periodsLimit  h4 
+{
+    font-weight: 600;
+    color: rgb(32, 32, 32);
+}
+
+.periodsLimit i 
+{
+    color: #01b289;
+    font-size: 2.5rem;
+    margin: .5rem;
+    transform: rotate(180deg);
+}
+
+
+
+
+.pricingCards
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+
+    height: 90vh;
+}
+
+.cardList 
+{
+    border: 1px solid rgb(173, 173, 173);
+    padding: 2.54rem 2rem;
+    text-align: center;
+    position: relative;
+}
+
+.moneyHeading
+{
+    margin: .5rem 0;
+    border-bottom: 1px solid rgb(201, 201, 201);
+}
+.amount 
+{
+    font-size: 3.8rem;
+
+}
+
+.amount i 
+{
+    font-size: 1.1rem;
+    
+}
+
+.amount span 
+{
+    font-size: 1rem;
+}
+
+.cardList ul li 
+{
+    font-size: 1.15rem;
+    margin: .5rem 0;
+}
+
+.cardBtn
+{
+    position: absolute;
+    bottom: 2%;
+    left: 5%;
+    width: 90%;
+}
+
+/* ****cards done */
+
+/* superCharge banner */
+
+.superChargeBanner
+{
+    margin: 1.55rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* border: 2px solid red; */
+}
+.superChargeBanner h2 
+{
+    /* text-align: center; */
+    font-weight: 400;
+    margin: 1.25rem 0;
+    
+}
+
+.superCharCard 
+{
+    width: 80%;
+}
+
+.superCharListItems
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 2rem ;
+    margin: .75rem 0rem;
+    box-shadow: 1px 1px 2rem rgb(228, 228, 228);
+    background-color: rgb(248, 248, 248);
+    border-radius: .25rem;
+}
+
+.superCharListItemsInfo 
+{
+    padding: 1.25rem 0;
+}
+
+
+
+.rate span 
+{
+    font-size: 1rem;
+    color: rgb(48, 48, 48);
+}
+
+
+/* superChargerBanner */
+
+.Banner
+{
+    transform: translateX(12%);
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(231, 231, 231);
+    padding: 2rem;
+    margin: 10rem 0;
+}
+
+/* faqs */
+
+
+.faqs
+{
+    margin: 5rem 0;
+}
+
+.faqs h2 
+{
+    text-align: center;
+    margin: 1rem 0;
+    color: #01b289;
+    cursor: pointer;
+}
+
+.faqsBox
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.answer
+{
+    padding-right:3rem ;
+    margin: .5rem 0;
+}
+
+
+.Question:hover
+{
+    color: #01b289;
+}
+
+/* footer */
+
+footer
+{
+    display: flex;
+    justify-content: space-around;
+    /* height: 60vh; */
+    padding: 5rem 0;
+    text-align: center;
+    position: relative;
+    /* border: 2px solid red; */
+    box-shadow: 1px 1px 2rem rgb(230, 230, 230);
+
+}
+footer img 
+{
+    width: 150px;
+}
+
+.footerHeading
+{
+    font-size: 1.5rem;
+    border-bottom: 1px solid rgb(173, 173, 173);
+    margin-bottom: 1rem;
+}
+
+.footerListItems
+{
+   /* border: 2px solid red; */
+   margin-bottom: 2rem;
+}
+.footerListItems a
+{
+    margin: 1.25rem 0;
+}
+.footerListItems a:hover
+{
+    text-decoration: underline;
+}
+
+
+.copyRightsection
+{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 2px;
+}
